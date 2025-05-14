@@ -29,7 +29,10 @@ permalink: /hosts
   <div id="games-display" class="games-list"></div>
 </div>
 
-<script src="{{ '/assets/gamelist.js' | relative_url }}"></script>
+<script>
+{% assign placeholder_img = site.baseurl | append: "/assets/images/placeholder-thumbnail.png" %}
+{% include gamelist.js image=placeholder_img %}
+</script>
 <script>
 const buttons = document.querySelectorAll('.host-button');
 const gamesContainer = document.getElementById('games-display-container');
