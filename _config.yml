@@ -1,8 +1,10 @@
-title: WNL Gamers
-description: Board games in Wootton, Bedford
-author: WNL Gamers
+title: Chambers Fine Books
+description: Booksellers based in South Buckinghamshire
+author: Chloë Chambers
+source: _pages
+
 baseurl: "" # leave this empty for a project site
-url: "https://wnlgamers.uk" 
+url: "" 
 # You can override colours in your custom CSS below
 # theme: midnight
 # remote_theme: pages-themes/midnight@v0.2.0

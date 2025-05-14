@@ -1,8 +1,0 @@
-- name: Home
-  url: index.html
-- name: Hosts
-  url: hosts.html
-- name: About
-  url: about.html
-- name: Contact
-  url: contact.html
