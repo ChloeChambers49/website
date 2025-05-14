@@ -1,0 +1,15 @@
+<!-- _includes/nav.html -->
+<nav class="site-nav">
+  <ul>
+    {% assign nav_items = site.data.navigation %}
+    {% for item in nav_items %}
+      {% assign is_active = false %}
+      {% if page.path == item.path %}
+        {% assign is_active = true %}
+      {% endif %}
+      <li{% if is_active %} class="active"{% endif %}>
+        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

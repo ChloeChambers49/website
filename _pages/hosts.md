@@ -13,7 +13,7 @@ permalink: /hosts
       data-host="{{ host.name }}" 
       data-list="{{ host.geeklist_id }}"
       data-bio="{{ host.bio | escape }}">
-      <img src="{{ host.image }}" alt="{{ host.name }}">
+      <img src="{{ host.image | relative_url }}" alt="{{ host.name }}">
       <span>{{ host.name }}</span>
     </button>
   {% endfor %}
