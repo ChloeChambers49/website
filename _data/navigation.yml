@@ -3,10 +3,10 @@
   url: /
 - name: Hosts
   path: _pages/hosts.md
-  url: /hosts/
+  url: /hosts
 - name: About
   path: _pages/about.md
-  url: /about/
+  url: /about
 - name: Contact
   path: _pages/contact.md
-  url: /contact/
+  url: /contact
