@@ -1,8 +1,12 @@
 - name: Home
-  url: index.html
+  path: _pages/index.md
+  url: /
 - name: Hosts
-  url: hosts.html
+  path: _pages/hosts.md
+  url: /hosts
 - name: About
-  url: about.html
+  path: _pages/about.md
+  url: /about
 - name: Contact
-  url: contact.html
+  path: _pages/contact.md
+  url: /contact

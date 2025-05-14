@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chambers Fine Books"
-permalink: 
+permalink: /
 ---
 
 ## Dealer in antiquarian books
