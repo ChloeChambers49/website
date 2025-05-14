@@ -2,7 +2,7 @@ title: Chambers Fine Books
 description: Booksellers based in South Buckinghamshire
 author: Chloë Chambers
 
-baseurl: "/chloeswebsite" # leave this empty for a project site
+baseurl: "/website" # leave this empty for a project site
 url: "https://phil-maynard.github.io" 
 # You can override colours in your custom CSS below
 # theme: midnight
