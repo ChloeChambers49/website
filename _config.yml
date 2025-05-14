@@ -3,7 +3,7 @@ description: Booksellers based in South Buckinghamshire
 author: Chloë Chambers
 
 baseurl: "/website" # leave this empty for a project site
-url: "https://phil-maynard.github.io" 
+url: "" 
 # You can override colours in your custom CSS below
 # theme: midnight
 # remote_theme: pages-themes/midnight@v0.2.0
